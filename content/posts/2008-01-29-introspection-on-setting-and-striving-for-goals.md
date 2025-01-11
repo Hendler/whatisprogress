@@ -13,7 +13,7 @@ categories:
 tags:
   - Goals
   - introspection
-
+draft: false
 ---
 When you work on something really hard for really long time &#8211; you have learned a lot. But, you might not be achieving the goals you set out to achieve. Something near the end is holding you back from success; invisible and powerful.
 

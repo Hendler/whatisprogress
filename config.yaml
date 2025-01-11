@@ -1,3 +1,110 @@
 url: https://whatisprogress.com/
 name: What is Progress?
 description:
+theme: "hugo-theme-stack"
+languageCode: "en-us"
+
+# Optional configurations
+params:
+  description: "A brief description of your site."
+  author:
+    name: "Jonathan Hendler"
+    email: "jonathan.hendler+whatisprogress@gmail.com"
+  showPostAuthor: true
+  showPostDate: true
+  showReadingTime: true
+  # Main menu items
+  # mainMenu:
+  #   - identifier: home
+  #     name: Home
+  #     url: /
+  #     weight: 10
+  #   - identifier: posts
+  #     name: Posts
+  #     url: /posts/
+  #     weight: 20
+  #   - identifier: about
+  #     name: About
+  #     url: /about/
+  #     weight: 30
+
+  # Homepage settings
+  sidebar:
+    emoji: 🎯
+    subtitle: Your subtitle here
+    avatar:
+      enabled: true
+      local: true
+      src: "img/avatar.png"
+
+  # Add this section to explicitly configure content types
+  # taxonomies:
+  #   category: categories
+  #   tag: tags
+
+  # # Add this to configure the posts section
+  # permalinks:
+  #   posts: /posts/:year/:month/:day/:title/
+
+  # Optionally, configure the posts section settings
+  # posts:
+  #   showAuthor: true
+  #   showDate: true
+  #   showTags: true
+  #   showCategories: true
+
+  mainSections:
+    - posts    # This should match your content structure
+    
+  article:
+    math: false
+    toc: true
+    readingTime: true
+    license:
+      enabled: false
+    
+  widgets:
+    homepage:
+      - type: search
+      - type: archives
+        params:
+          limit: 5
+      - type: categories
+        params:
+          limit: 10
+      - type: tag-cloud
+        params:
+          limit: 10
+
+menu:
+    main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: 10
+          params:
+              icon: home
+        - identifier: posts
+          name: Posts
+          url: /posts/
+          weight: 20
+          params:
+              icon: archives
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 30
+          params:
+              icon: user
+
+# Add markup configuration to allow raw HTML
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  
+# Add ignore logs configuration to suppress warnings
+ignoreErrors:
+  - error-remote-getjson
+ignoreLogs:
+  - warning-goldmark-raw-html

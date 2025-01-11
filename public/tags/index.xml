@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Tags on </title>
+        <link>//localhost:1313/tags/</link>
+        <description>Recent content in Tags on </description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</managingEditor>
+        <webMaster>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</webMaster>
+        <lastBuildDate>Tue, 19 Jan 2016 21:26:53 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>AI</title>
+        <link>//localhost:1313/tags/ai/</link>
+        <pubDate>Tue, 19 Jan 2016 21:26:53 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/ai/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Digital Divide</title>
+        <link>//localhost:1313/tags/digital-divide/</link>
+        <pubDate>Tue, 19 Jan 2016 21:26:53 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/digital-divide/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Aws</title>
+        <link>//localhost:1313/tags/aws/</link>
+        <pubDate>Thu, 16 May 2013 19:37:47 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/aws/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Java</title>
+        <link>//localhost:1313/tags/java/</link>
+        <pubDate>Thu, 16 May 2013 19:37:47 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/java/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Machine Learning</title>
+        <link>//localhost:1313/tags/machine-learning/</link>
+        <pubDate>Thu, 16 May 2013 19:37:47 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/machine-learning/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Nlp</title>
+        <link>//localhost:1313/tags/nlp/</link>
+        <pubDate>Thu, 16 May 2013 19:37:47 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/nlp/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Php</title>
+        <link>//localhost:1313/tags/php/</link>
+        <pubDate>Thu, 16 May 2013 19:37:47 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/php/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Python</title>
+        <link>//localhost:1313/tags/python/</link>
+        <pubDate>Thu, 16 May 2013 19:37:47 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/python/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Scala</title>
+        <link>//localhost:1313/tags/scala/</link>
+        <pubDate>Thu, 16 May 2013 19:37:47 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/scala/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Zeromq</title>
+        <link>//localhost:1313/tags/zeromq/</link>
+        <pubDate>Thu, 16 May 2013 19:37:47 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/zeromq/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Boston</title>
+        <link>//localhost:1313/tags/boston/</link>
+        <pubDate>Thu, 07 Mar 2013 22:08:22 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/boston/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>HAI</title>
+        <link>//localhost:1313/tags/hai/</link>
+        <pubDate>Thu, 07 Mar 2013 22:08:22 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/hai/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Startups</title>
+        <link>//localhost:1313/tags/startups/</link>
+        <pubDate>Thu, 07 Mar 2013 22:08:22 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/startups/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>ANN</title>
+        <link>//localhost:1313/tags/ann/</link>
+        <pubDate>Sun, 24 Feb 2013 16:47:16 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/ann/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Semantic Web</title>
+        <link>//localhost:1313/tags/semantic-web/</link>
+        <pubDate>Sun, 24 Feb 2013 16:47:16 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/semantic-web/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Ubiquitous Computing</title>
+        <link>//localhost:1313/tags/ubiquitous-computing/</link>
+        <pubDate>Sun, 24 Feb 2013 16:47:16 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/ubiquitous-computing/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Adobe</title>
+        <link>//localhost:1313/tags/adobe/</link>
+        <pubDate>Fri, 09 Apr 2010 22:00:00 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/adobe/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Apple</title>
+        <link>//localhost:1313/tags/apple/</link>
+        <pubDate>Fri, 09 Apr 2010 22:00:00 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/apple/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Business</title>
+        <link>//localhost:1313/tags/business/</link>
+        <pubDate>Fri, 09 Apr 2010 22:00:00 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/business/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Opensource</title>
+        <link>//localhost:1313/tags/opensource/</link>
+        <pubDate>Fri, 09 Apr 2010 22:00:00 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/opensource/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Concurrency</title>
+        <link>//localhost:1313/tags/concurrency/</link>
+        <pubDate>Fri, 26 Mar 2010 22:32:00 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/concurrency/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Nodejs</title>
+        <link>//localhost:1313/tags/nodejs/</link>
+        <pubDate>Fri, 26 Mar 2010 22:32:00 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/nodejs/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Scalability</title>
+        <link>//localhost:1313/tags/scalability/</link>
+        <pubDate>Fri, 26 Mar 2010 22:32:00 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/scalability/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>//localhost:1313/tags/search/</link>
+        <pubDate>Fri, 26 Mar 2010 19:34:00 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Solr</title>
+        <link>//localhost:1313/tags/solr/</link>
+        <pubDate>Fri, 26 Mar 2010 19:34:00 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/solr/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Internet Startups</title>
+        <link>//localhost:1313/tags/internet-startups/</link>
+        <pubDate>Thu, 25 Mar 2010 19:58:00 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/internet-startups/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Cisco</title>
+        <link>//localhost:1313/tags/cisco/</link>
+        <pubDate>Mon, 26 Oct 2009 16:56:11 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/cisco/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Internet</title>
+        <link>//localhost:1313/tags/internet/</link>
+        <pubDate>Mon, 26 Oct 2009 16:56:11 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/internet/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Technology</title>
+        <link>//localhost:1313/tags/technology/</link>
+        <pubDate>Mon, 26 Oct 2009 16:56:11 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/technology/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Chemical Farming</title>
+        <link>//localhost:1313/tags/chemical-farming/</link>
+        <pubDate>Sun, 13 Sep 2009 16:54:17 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/chemical-farming/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Climate</title>
+        <link>//localhost:1313/tags/climate/</link>
+        <pubDate>Sun, 13 Sep 2009 16:54:17 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/climate/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Environment</title>
+        <link>//localhost:1313/tags/environment/</link>
+        <pubDate>Sun, 13 Sep 2009 16:54:17 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/environment/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Norman Borlaug</title>
+        <link>//localhost:1313/tags/norman-borlaug/</link>
+        <pubDate>Sun, 13 Sep 2009 16:54:17 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/norman-borlaug/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Science</title>
+        <link>//localhost:1313/tags/science/</link>
+        <pubDate>Sun, 13 Sep 2009 16:54:17 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/science/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Government</title>
+        <link>//localhost:1313/tags/government/</link>
+        <pubDate>Tue, 04 Nov 2008 16:52:10 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/government/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Meaning of Democracy</title>
+        <link>//localhost:1313/tags/meaning-of-democracy/</link>
+        <pubDate>Tue, 04 Nov 2008 16:52:10 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/meaning-of-democracy/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Participatory Democracy</title>
+        <link>//localhost:1313/tags/participatory-democracy/</link>
+        <pubDate>Tue, 04 Nov 2008 16:52:10 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/participatory-democracy/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Transparent Government</title>
+        <link>//localhost:1313/tags/transparent-government/</link>
+        <pubDate>Tue, 04 Nov 2008 16:52:10 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/transparent-government/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Carl Rogers</title>
+        <link>//localhost:1313/tags/carl-rogers/</link>
+        <pubDate>Sat, 20 Sep 2008 16:45:48 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/carl-rogers/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Clayton Christensen</title>
+        <link>//localhost:1313/tags/clayton-christensen/</link>
+        <pubDate>Sat, 20 Sep 2008 16:45:48 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/clayton-christensen/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Disruptive Technology</title>
+        <link>//localhost:1313/tags/disruptive-technology/</link>
+        <pubDate>Sat, 20 Sep 2008 16:45:48 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/disruptive-technology/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Ed Reform</title>
+        <link>//localhost:1313/tags/ed-reform/</link>
+        <pubDate>Sat, 20 Sep 2008 16:45:48 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/ed-reform/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Education</title>
+        <link>//localhost:1313/tags/education/</link>
+        <pubDate>Sat, 20 Sep 2008 16:45:48 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/education/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Goals</title>
+        <link>//localhost:1313/tags/goals/</link>
+        <pubDate>Tue, 29 Jan 2008 16:41:30 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/goals/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Introspection</title>
+        <link>//localhost:1313/tags/introspection/</link>
+        <pubDate>Tue, 29 Jan 2008 16:41:30 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/tags/introspection/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

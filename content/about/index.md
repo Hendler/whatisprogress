@@ -10,6 +10,7 @@ Increase the quality and usability of information to solve complex sociological 
   * <a style="line-height:1.6;" title="View public profile" href="http://www.linkedin.com/in/jonathanhendler/" name="webProfileURL">www.linkedin.com/in/jonathanhendler/</a>
   * <a style="line-height:1.6;" href="https://twitter.com/hendler">twitter.com/hendler</a>
 
-About HAI
+ 
+My main sid project is **Human Assisted Intelligence**. 
 
-**Human Assisted Intelligence**. HAI will help computers learn about people.
+Watch progress at [HAI.AI](https://hai.ai/)
