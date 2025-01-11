@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="How\u00a0many calculations do I consume per day (or per second), compared to\u00a0a person with less\u00a0access to a smartphone or the Internet? Computation per capita could be a scientific measure\u00a0of\u00a0the\u00a0digital divide.\nComputing may forever be bits and powered logic gates. We measure computer output\u00a0with FLOPS. [1] We can average total computational power per person. Segmenting\u00a0by country adds more insight, which would be similar to\u00a0maps of Internet access.\n">
+<title>Measuring the digital divide</title>
+
+<link rel='canonical' href='//localhost:1313/?p=176/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Measuring the digital divide">
+<meta property='og:description' content="How\u00a0many calculations do I consume per day (or per second), compared to\u00a0a person with less\u00a0access to a smartphone or the Internet? Computation per capita could be a scientific measure\u00a0of\u00a0the\u00a0digital divide.\nComputing may forever be bits and powered logic gates. We measure computer output\u00a0with FLOPS. [1] We can average total computational power per person. Segmenting\u00a0by country adds more insight, which would be similar to\u00a0maps of Internet access.\n">
+<meta property='og:url' content='//localhost:1313/?p=176/'>
+<meta property='og:site_name' content=''>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='AI' /><meta property='article:tag' content='Digital Divide' /><meta property='article:published_time' content='2016-01-19T21:26:53&#43;00:00'/><meta property='article:modified_time' content='2016-01-19T21:26:53&#43;00:00'/>
+<meta name="twitter:title" content="Measuring the digital divide">
+<meta name="twitter:description" content="How\u00a0many calculations do I consume per day (or per second), compared to\u00a0a person with less\u00a0access to a smartphone or the Internet? Computation per capita could be a scientific measure\u00a0of\u00a0the\u00a0digital divide.\nComputing may forever be bits and powered logic gates. We measure computer output\u00a0with FLOPS. [1] We can average total computational power per person. Segmenting\u00a0by country adds more insight, which would be similar to\u00a0maps of Internet access.\n">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu13739649187745961479.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🎯</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="//localhost:1313/"></a></h1>
+            <h2 class="site-description">Your subtitle here</h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/posts/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Posts</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/hai/" >
+                HAI
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/?p=176/">Measuring the digital divide</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 19, 2016</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    4 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="howmany-calculations-do-i-consume-per-day-or-per-second-compared-toa-person-with-lessaccess-to-a-smartphone-or-the-internet">How many calculations do I consume per day (or per second), compared to a person with less access to a smartphone or the Internet?
+</h2><p>Computation per capita could be a scientific measure of the <a href="https://en.wikipedia.org/wiki/Digital_divide" target="_blank">digital divide</a>.</p>
+<p>Computing may forever be bits and powered logic gates. We measure computer output with <a href="https://en.wikipedia.org/wiki/FLOPS" target="_blank">FLOPS</a>. [1]  We can average total computational power per person. Segmenting by country adds more insight, which would be similar to <a href="http://data.worldbank.org/indicator/IT.NET.USER.P2/countries/1W?display=map" target="_blank">maps of Internet access</a>.</p>
+<p>We make decisions in some parts of the world without much computation. To improve inequality we provide greater access to computation.</p>
+<p>Google and other open services are a force for equality. The cost of a search for any user in one part of the world is near equal to all others. The equality isn’t perfect. Google has more data about me and how I live, so there’s more computation done on my behalf. But even if that is true, less Google is likely better than no Google.</p>
+<h3 id="we-could-try-to-measure-computation-per-8220decision8221">We could try to measure computation per “decision”.
+</h3><p>Decisions have measurable amounts of computation. What is the average amount of computation that happens when you tap your phone (in the cloud and on the phone)? I don’t know if we could measure the impact of a tap.[2]  But we could calculate the computational output of a click or tap.</p>
+<ul>
+<li>a <a href="https://googleblog.blogspot.com/2009/01/powering-google-search.html" target="_blank">single google search</a></li>
+<li><a href="https://www.math.nyu.edu/faculty/avellane/QuantCongressUSA2011AlgoTradingLAST.pdf" target="_blank">an automated stock purchase</a>, <a href="http://math.mit.edu/~freer/papers/PhysRevE_82-056104.pdf" target="_blank">over a network</a></li>
+<li><a href="https://www.itasoftware.com/" target="_blank">pricing an airline ticket</a></li>
+<li>a second of a [self]-driving a car  (<a href="http://www.fool.com/investing/general/2016/01/12/nvidia-doubles-down-on-the-self-driving-car.aspx" target="_blank">NVidia suggests 24 teraflops</a>)</li>
+<li><a href="http://www.kdnuggets.com/2015/03/interview-brad-klingenberg-stitchfix-machine-learning.html" target="_blank">buying a dress</a></li>
+<li>a single <a href="http://www.co2stats.com/" target="_blank">web page</a> loading</li>
+</ul>
+<h3 id="how-could-you-compare-the-list-above-to-one-hundred-years-ago-or-one-hundred-years-in-the-future">How could you compare the list above to one hundred years ago, or one hundred years in the future?
+</h3><p>Perhaps the closest analog to the Internet in the last century was the number of telegrams, pieces of mail, or minutes of phone calls;</p>
+<ul>
+<li>to design and build a locomotive</li>
+<li>buy a stock</li>
+<li>buy a ticket on a <a href="https://en.wikipedia.org/wiki/LZ_127_Graf_Zeppelin" target="_blank">trans-Atlantic zeppelin</a></li>
+<li>decide when to plant corn</li>
+<li>decide to get married</li>
+</ul>
+<p>One hundred years in the future I’m not sure what we’ll be doing, but I hope we will still make useful decisions. Some possible examples:</p>
+<ul>
+<li><a href="http://www.huffingtonpost.com/2014/09/08/3d-printed-houses_n_5773408.html" target="_blank">3D print your fourth house</a> by tomorrow</li>
+<li><a href="http://www.wired.com/2015/07/crispr-dna-editing-2/" target="_blank">create a new species</a> of flower for your children’s garden</li>
+<li><a href="http://www.smithsonianmag.com/innovation/quest-upload-mind-into-digital-space-180954946/?no-ist" target="_blank">make a copy of your brain</a> and <a href="http://www.extremetech.com/extreme/163051-simulating-1-second-of-human-brain-activity-takes-82944-processors" target="_blank">have it decide</a> if you <a href="http://www.amazon.com/gp/product/0441014151/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0441014151&linkCode=as2&tag=whatisprogr-20&linkId=UB6H2TQLWFWHE7MH" target="_blank">should get married by interacting with a copy of your potential partner’s brain</a></li>
+<li>bring <a href="http://waffles-the-cat.tumblr.com/post/28807020123/cat-on-mars" target="_blank">your cloned cat Waffles the XIV</a> home from its <a href="http://www.space.com/28215-elon-musk-spacex-mars-colony-idea.html" target="_blank">vacation to Mars</a></li>
+</ul>
+<h3 id="what-couldwe-name8220computations-per-decision8221">What could we name “computations per decision”?
+</h3><p>Since I’m an unqualified amateur, I’ll make up a term; <span style="text-decoration:underline;"><strong>decision density</strong></span>.</p>
+<blockquote>
+<p><strong>The number of bits used per a unit of time to make a <span style="text-decoration:underline;">perceived</span> decision.</strong></p>
+</blockquote>
+<p>Note “perceived”. By definition, we must be able to observe when we’ve made a decision. We do so based on the support of many calculations, but most computation is hidden [3] and <a href="https://en.wikipedia.org/wiki/Ubiquitous_computing" target="_blank">increasingly ubiquitous</a>.</p>
+<p>If we can measure decision density per human, we would have another tool to measure the digital divide.</p>
+<p>I look forward to mathy, articulate, and design oriented humans to elevate my <span style="text-decoration:underline;"><strong>pre</strong></span>–<a href="https://en.wikipedia.org/wiki/Posthuman" target="_blank">post-human</a> writing. Otherwise, I’ve got this post until I can ask <a href="http://www.amazon.com/gp/product/B00IA3NGB4/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00IA3NGB4&linkCode=as2&tag=whatisprogr-20&linkId=TBPHK6DCRYLQKHGI" target="_blank">Her</a> to fix it.</p>
+<h2 id="notes">Notes
+</h2><p>Elon Musk mentions a “recursive y axis” in the video below as a way to measure progress, over time, of computation.</p>
+<p>[youtube https://www.youtube.com/watch?v=rSl0HPLGFUU]</p>
+<p>[1] – Factoring in energy you have <a href="https://en.wikipedia.org/wiki/Performance_per_watt" target="_blank">performance per watt</a> and <a href="https://en.wikipedia.org/wiki/Koomey%27s_law" target="_blank">Koomy’s law</a>. This doesn’t tell us <a href="http://royal.pingdom.com/2009/03/19/10-historical-software-bugs-with-extreme-consequences/" target="_blank">if the decisions were correct</a>, or efficient (see <a href="https://en.wikipedia.org/wiki/Big_O_notation" target="_blank">big O notation</a> or <a href="https://www.reddit.com/r/badcode" target="_blank">examples of bad code</a>). Nor does this measure tell us how much pre-calculation went into a decision.</p>
+<p>[2] – Maybe impact could be measured by how much money flows as a result. Or using <a href="http://hdr.undp.org/en/content/human-development-index-hdi" target="_blank">HDI</a>.</p>
+<p>[3] – A calculation is contained in a function like <em>f(x)=y</em>, and the decision is the output. We could also say a calculation is made by a computer, and a decision is made by a human. (That line is already blurry).</p>
+<p>Also – Check out the <a href="https://www.quora.com/How-many-calculations-do-I-consume-per-day-or-even-per-second-versus-a-person-with-less-access-to-a-smartphone-or-the-Internet" target="_blank">posts</a> on <a href="https://www.quora.com/Could-computation-per-capita-be-a-scientific-measure-of-the-inequality-in-the-digital-divide" target="_blank">Quora</a>, the <a href="https://news.ycombinator.com/item?id=10934196" target="_blank">conversation on Hacker News</a></p>
+<p> </p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/ai/">AI</a>
+        
+            <a href="/tags/digital-divide/">Digital Divide</a>
+        
+    </section>
+
+
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            Last updated on Jan 19, 2016 21:26 UTC
+        </span>
+    </section></footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/?p=77/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Sneak peek at early decisions at HAI</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/?p=68/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">More about HAI</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/?p=54/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Oh. HAI.</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.6dd0c80e987bd70fe126da8dd5c8370bcbe316a95172121841ef346733add318.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

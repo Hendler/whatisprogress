@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Aws on </title>
+        <link>//localhost:1313/tags/aws/</link>
+        <description>Recent content in Aws on </description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</managingEditor>
+        <webMaster>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</webMaster>
+        <lastBuildDate>Thu, 16 May 2013 19:37:47 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/aws/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Sneak peek at early decisions at HAI</title>
+        <link>//localhost:1313/?p=77/</link>
+        <pubDate>Thu, 16 May 2013 19:37:47 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/?p=77/</guid>
+        <description>&lt;p&gt;Recently launched a site with some basic vision behind HAI.&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;HAI - Human Assisted Intelligence&#34; href=&#34;http://hai.io&#34; target=&#34;_blank&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://hai.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://hai.io&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;But the tech stack is where the rubber meets the road. &lt;span style=&#34;line-height:1.6;&#34;&gt;I’ve been coding about two months now. At the very beginning I went through a fair amount of thinking and ended up selecting a language for the backend based on a number of factors. From languages I knew, C++, Go, PHP, Python, Java/Scala, and Node.js were on the table. Python and Java were the two top contenders, but I ended up going with Python. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;[googleapps domain=”docs” dir=”spreadsheet/pub” query=”key=0AtSfzP3z6m_6dElyYi1xaUpQQUwxNTJwYWVCR3JBYUE&amp;amp;output=html&amp;amp;widget=true” width=”500″ height=”300″ /]&lt;/p&gt;
+&lt;p&gt;So far I’ve been really happy with Python for both flexibility of the language, the available libraries for both web and machine learning, and the developer community. Ruby / Rails has an amazing community and great web stack, but given my own lack of familiarity and less work being done in machine learning, it didn’t make my list.&lt;/p&gt;
+&lt;p&gt;Then I started evaluating open source projects that would be the platform. There are 132 on the list below (looked at least 4x that many). It’s been amazing getting up to speed on the projects that are open source. Although Google, IBM, Amazon and others are clearly going to lead in the machine learning space for the foreseeable future, the open source community is catching up.&lt;/p&gt;
+&lt;p&gt;[googleapps domain=”docs” dir=”spreadsheet/pub” query=”key=0AtSfzP3z6m_6dHdiNWV5S2dPNjNZemE2M052ZHhjREE&amp;amp;output=html&amp;amp;widget=true” width=”500″ height=”300″ /]&lt;/p&gt;
+&lt;p&gt;Open source is a moving target, and there’s no one size fits all when you are piecing together something new. So, I’ve been using the awesome &lt;a href=&#34;http://www.zeromq.org/&#34; target=&#34;_blank&#34;&gt;ZeroMQ&lt;/a&gt; library to connect services between libraries, languages.&lt;/p&gt;
+&lt;p&gt;Finally, thanks to everyone who has provided feedback so far. Can’t wait to get what I’m working on out into the world.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

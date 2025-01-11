@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>HAI on </title>
+        <link>//localhost:1313/categories/hai/</link>
+        <description>Recent content in HAI on </description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</managingEditor>
+        <webMaster>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</webMaster>
+        <lastBuildDate>Sun, 19 Mar 2023 08:43:38 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/hai/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Where to start building for long term AI safety and alignment?</title>
+        <link>//localhost:1313/?p=798/</link>
+        <pubDate>Sun, 19 Mar 2023 08:43:38 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/?p=798/</guid>
+        <description>&lt;p&gt;OpenAI and other AI companies will unlock a transition and the reorganization of nearly everything. _Long term _positive impact will be an increasing challenge, as we try to manage unintended consequences.&lt;/p&gt;
+&lt;div class=&#34;wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained&#34;&gt;
+  &lt;figure class=&#34;wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio&#34;&gt;
+  &lt;div class=&#34;wp-block-embed__wrapper&#34;&gt;
+  &lt;/div&gt;&lt;/figure&gt; 
+  &lt;p&gt;
+    Short term safety issues are urgent, but clear as we work to manage malicious actors. There are&lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://alexw.substack.com/p/war&#34; target=&#34;_blank&#34;&gt; broader international challenges&lt;/a&gt;, including with China.
+  &lt;/p&gt;&lt;figure class=&#34;wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter&#34;&gt;
+  &lt;div class=&#34;wp-block-embed__wrapper&#34;&gt;
+    &lt;blockquote class=&#34;twitter-tweet&#34; data-width=&#34;500&#34; data-dnt=&#34;true&#34;&gt;
+      &lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+        This is a reality. We will build amazing things with AI, not as a luxury, but to make a better world the only world. &lt;br /&gt;&lt;br /&gt;I&#39;ve seen discontent with the establishment (policy, public safety) turn into disconnection. We need to come together on these issues. &lt;br /&gt;&lt;br /&gt;Via &lt;a href=&#34;https://twitter.com/alexandr_wang?ref_src=twsrc%5Etfw&#34;&gt;@alexandr_wang&lt;/a&gt; &lt;a href=&#34;https://t.co/ayxaS00W7v&#34;&gt;https://t.co/ayxaS00W7v&lt;/a&gt;
+      &lt;/p&gt;&amp;mdash; Jonathan Hendler 🪰 (@hendler) 
+&lt;pre&gt;&lt;code&gt;  &amp;lt;a href=&amp;quot;https://twitter.com/hendler/status/1637232655543697408?ref_src=twsrc%5Etfw&amp;quot;&amp;gt;March 18, 2023&amp;lt;/a&amp;gt;
+&amp;lt;/blockquote&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;While short term considerations are key, long term safety requires massive prediction and forecasting abilities, with the right initial conditions. What is an anchor AGI and superintelligence so that it doesn’t destroy us? The function may be one of &lt;strong&gt;freedom of consciousness for the most beings, as long as possible&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Via a prompt to GPT-4:&lt;/p&gt;
+&lt;div class=&#34;wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained&#34;&gt;
+  &lt;p&gt;
+    As we delve deeper into the realm of AI safety and alignment, it is crucial to explore technical examples of how one might construct an AI system with long-term alignment. Let&amp;#8217;s consider the idea that the overarching function of AGI revolves around maximizing freedom of consciousness for the greatest number of beings, for as long as possible.
+  &lt;/p&gt;
+  &lt;ol class=&#34;wp-block-list&#34;&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Incorporating Value Alignment:&lt;/strong&gt; To ensure the AI system aligns with the intended goal, we must explicitly integrate human values into the AGI&amp;#8217;s objective function. This may involve techniques such as inverse reinforcement learning, where the AI system learns the preferences of human beings by observing their actions and decisions.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Designing an Expandable Utility Function:&lt;/strong&gt; To accommodate the evolving nature of human values and societal changes, the AI system&amp;#8217;s utility function should be flexible and adaptive. It could be designed to incorporate new information, allowing the AI system to refine its understanding of the concept of &amp;#8220;freedom of consciousness&amp;#8221; and the best ways to maximize it.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Incorporating Multi-Agent Collaboration:&lt;/strong&gt; Since maximizing freedom of consciousness for the greatest number of beings might involve coordination among multiple AI systems, we should focus on building AI systems that can cooperate with other agents. Techniques such as multi-agent reinforcement learning can be employed to ensure that AI systems learn to collaborate effectively.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Bias Mitigation:&lt;/strong&gt; Ensuring fairness and avoiding biases in the AI system is crucial for maximizing freedom of consciousness. By incorporating techniques like adversarial training and fairness-aware machine learning, we can work towards building AI systems that treat all individuals fairly, regardless of their background or demographic characteristics.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Long-term Impact Assessment:&lt;/strong&gt; To evaluate the long-term consequences of the AI system&amp;#8217;s actions, we can employ techniques such as Monte Carlo Tree Search (MCTS) and counterfactual simulations. These methods can help the AI system explore the potential outcomes of its decisions and choose actions that align with the goal of maximizing freedom of consciousness in the long run.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Robustness and Safety Measures:&lt;/strong&gt; To ensure the AI system remains aligned with the goal even under uncertain conditions, we can implement safety measures such as reward modeling, conservative policy updates, and distributional reinforcement learning. These techniques can help the AI system avoid catastrophic failures and maintain alignment with the objective of maximizing freedom of consciousness.
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+&lt;p&gt;The next prompt:&lt;/p&gt;
+&lt;p&gt;_Please expand on what “freedom of consciousness for the most beings, as long as possible” means. First, what is considered conscious, including definitions like Tsukumogami/animism and the belief that only some humans are. Also, what is freedom? Is it a metaphor for “freedom ends at the tip of my nose?” What kinds of ethical conflicts can arise when you try to include the most beings as possible? Finally what is the tradeoff between long term and short term efforts to preserve a consciousness?&lt;br&gt;
+_&lt;br&gt;
+The response:&lt;/p&gt;
+&lt;p&gt;“Freedom of consciousness for the most beings, as long as possible” is a multifaceted concept that entails addressing several key questions, such as the definition of consciousness, the meaning of freedom, potential ethical conflicts, and the trade-offs between short-term and long-term efforts.&lt;/p&gt;
+&lt;ol class=&#34;wp-block-list&#34;&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Defining Consciousness:&lt;/strong&gt; The notion of consciousness is a subject of ongoing debate among philosophers, scientists, and AI researchers. In the context of AI alignment, we can consider a spectrum of definitions, ranging from the belief that only some humans possess consciousness, to more inclusive perspectives like animism or the concept of Tsukumogami (Japanese folklore, where inanimate objects can acquire a spirit after a certain period). Establishing a clear and precise definition of consciousness is essential for determining which beings should be considered when maximizing freedom of consciousness.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Understanding Freedom:&lt;/strong&gt; Freedom can be interpreted in various ways, often depending on cultural, philosophical, or individual perspectives. One common interpretation is the notion that &amp;#8220;freedom ends at the tip of my nose,&amp;#8221; meaning that an individual&amp;#8217;s freedom should not infringe upon the rights or freedoms of others. In the context of AI alignment, freedom may involve ensuring that conscious beings can exercise their autonomy, make choices, and pursue their well-being without interference from AI systems or other external forces.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Ethical Conflicts:&lt;/strong&gt; When attempting to include the most beings possible, several ethical conflicts may arise. For instance, the interests of different beings may sometimes be at odds, leading to dilemmas where AI systems must prioritize certain beings over others. Additionally, cultural and philosophical differences in interpreting consciousness and freedom may complicate the decision-making process for AI systems. Balancing these competing interests and values is a significant challenge in AI alignment.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Short-term vs. Long-term Efforts:&lt;/strong&gt; Preserving consciousness might involve trade-offs between short-term and long-term efforts. Immediate actions may be necessary to protect conscious beings from immediate harm, while long-term efforts may focus on creating sustainable environments and societies that allow conscious beings to flourish. AI systems must balance these priorities, making decisions that may involve sacrificing short-term benefits for more significant long-term gains or vice versa. This balancing act may require advanced predictive capabilities and a deep understanding of the dynamic relationships between various factors that influence the well-being of conscious beings.
+  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To design AI systems capable of maximizing freedom of consciousness for the most beings, as long as possible, it is crucial to address these complex questions and navigate the myriad ethical, philosophical, and practical challenges they present. By doing so, we can work towards creating AGI that not only aligns with our values but also respects the autonomy and well-being of all conscious beings.&lt;/p&gt;
+&lt;p&gt;By incorporating these technical approaches into the design and development of AI systems, we can work towards building AGI that genuinely aligns with the long-term goal of maximizing freedom of consciousness for the greatest number of beings, for as long as possible. This will require continuous research, collaboration, and innovation in the field of AI safety and alignment.&lt;figure class=&#34;wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;wp-block-embed__wrapper&#34;&gt;
+&lt;/div&gt;&lt;/figure&gt;</description>
+        </item>
+        <item>
+        <title>Measuring the digital divide</title>
+        <link>//localhost:1313/?p=176/</link>
+        <pubDate>Tue, 19 Jan 2016 21:26:53 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/?p=176/</guid>
+        <description>&lt;h2 id=&#34;howmany-calculations-do-i-consume-per-day-or-per-second-compared-toa-person-with-lessaccess-to-a-smartphone-or-the-internet&#34;&gt;How many calculations do I consume per day (or per second), compared to a person with less access to a smartphone or the Internet?
+&lt;/h2&gt;&lt;p&gt;Computation per capita could be a scientific measure of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Digital_divide&#34; target=&#34;_blank&#34;&gt;digital divide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Computing may forever be bits and powered logic gates. We measure computer output with &lt;a href=&#34;https://en.wikipedia.org/wiki/FLOPS&#34; target=&#34;_blank&#34;&gt;FLOPS&lt;/a&gt;. [1]  We can average total computational power per person. Segmenting by country adds more insight, which would be similar to &lt;a href=&#34;http://data.worldbank.org/indicator/IT.NET.USER.P2/countries/1W?display=map&#34; target=&#34;_blank&#34;&gt;maps of Internet access&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We make decisions in some parts of the world without much computation. To improve inequality we provide greater access to computation.&lt;/p&gt;
+&lt;p&gt;Google and other open services are a force for equality. The cost of a search for any user in one part of the world is near equal to all others. The equality isn’t perfect. Google has more data about me and how I live, so there’s more computation done on my behalf. But even if that is true, less Google is likely better than no Google.&lt;/p&gt;
+&lt;h3 id=&#34;we-could-try-to-measure-computation-per-8220decision8221&#34;&gt;We could try to measure computation per “decision”.
+&lt;/h3&gt;&lt;p&gt;Decisions have measurable amounts of computation. What is the average amount of computation that happens when you tap your phone (in the cloud and on the phone)? I don’t know if we could measure the impact of a tap.[2]  But we could calculate the computational output of a click or tap.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a &lt;a href=&#34;https://googleblog.blogspot.com/2009/01/powering-google-search.html&#34; target=&#34;_blank&#34;&gt;single google search&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.math.nyu.edu/faculty/avellane/QuantCongressUSA2011AlgoTradingLAST.pdf&#34; target=&#34;_blank&#34;&gt;an automated stock purchase&lt;/a&gt;, &lt;a href=&#34;http://math.mit.edu/~freer/papers/PhysRevE_82-056104.pdf&#34; target=&#34;_blank&#34;&gt;over a network&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itasoftware.com/&#34; target=&#34;_blank&#34;&gt;pricing an airline ticket&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;a second of a [self]-driving a car  (&lt;a href=&#34;http://www.fool.com/investing/general/2016/01/12/nvidia-doubles-down-on-the-self-driving-car.aspx&#34; target=&#34;_blank&#34;&gt;NVidia suggests 24 teraflops&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kdnuggets.com/2015/03/interview-brad-klingenberg-stitchfix-machine-learning.html&#34; target=&#34;_blank&#34;&gt;buying a dress&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;a single &lt;a href=&#34;http://www.co2stats.com/&#34; target=&#34;_blank&#34;&gt;web page&lt;/a&gt; loading&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;how-could-you-compare-the-list-above-to-one-hundred-years-ago-or-one-hundred-years-in-the-future&#34;&gt;How could you compare the list above to one hundred years ago, or one hundred years in the future?
+&lt;/h3&gt;&lt;p&gt;Perhaps the closest analog to the Internet in the last century was the number of telegrams, pieces of mail, or minutes of phone calls;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;to design and build a locomotive&lt;/li&gt;
+&lt;li&gt;buy a stock&lt;/li&gt;
+&lt;li&gt;buy a ticket on a &lt;a href=&#34;https://en.wikipedia.org/wiki/LZ_127_Graf_Zeppelin&#34; target=&#34;_blank&#34;&gt;trans-Atlantic zeppelin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;decide when to plant corn&lt;/li&gt;
+&lt;li&gt;decide to get married&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;One hundred years in the future I’m not sure what we’ll be doing, but I hope we will still make useful decisions. Some possible examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.huffingtonpost.com/2014/09/08/3d-printed-houses_n_5773408.html&#34; target=&#34;_blank&#34;&gt;3D print your fourth house&lt;/a&gt; by tomorrow&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wired.com/2015/07/crispr-dna-editing-2/&#34; target=&#34;_blank&#34;&gt;create a new species&lt;/a&gt; of flower for your children’s garden&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.smithsonianmag.com/innovation/quest-upload-mind-into-digital-space-180954946/?no-ist&#34; target=&#34;_blank&#34;&gt;make a copy of your brain&lt;/a&gt; and &lt;a href=&#34;http://www.extremetech.com/extreme/163051-simulating-1-second-of-human-brain-activity-takes-82944-processors&#34; target=&#34;_blank&#34;&gt;have it decide&lt;/a&gt; if you &lt;a href=&#34;http://www.amazon.com/gp/product/0441014151/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0441014151&amp;linkCode=as2&amp;tag=whatisprogr-20&amp;linkId=UB6H2TQLWFWHE7MH&#34; target=&#34;_blank&#34;&gt;should get married by interacting with a copy of your potential partner’s brain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;bring &lt;a href=&#34;http://waffles-the-cat.tumblr.com/post/28807020123/cat-on-mars&#34; target=&#34;_blank&#34;&gt;your cloned cat Waffles the XIV&lt;/a&gt; home from its &lt;a href=&#34;http://www.space.com/28215-elon-musk-spacex-mars-colony-idea.html&#34; target=&#34;_blank&#34;&gt;vacation to Mars&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-couldwe-name8220computations-per-decision8221&#34;&gt;What could we name “computations per decision”?
+&lt;/h3&gt;&lt;p&gt;Since I’m an unqualified amateur, I’ll make up a term; &lt;span style=&#34;text-decoration:underline;&#34;&gt;&lt;strong&gt;decision density&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;The number of bits used per a unit of time to make a &lt;span style=&#34;text-decoration:underline;&#34;&gt;perceived&lt;/span&gt; decision.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Note “perceived”. By definition, we must be able to observe when we’ve made a decision. We do so based on the support of many calculations, but most computation is hidden [3] and &lt;a href=&#34;https://en.wikipedia.org/wiki/Ubiquitous_computing&#34; target=&#34;_blank&#34;&gt;increasingly ubiquitous&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If we can measure decision density per human, we would have another tool to measure the digital divide.&lt;/p&gt;
+&lt;p&gt;I look forward to mathy, articulate, and design oriented humans to elevate my &lt;span style=&#34;text-decoration:underline;&#34;&gt;&lt;strong&gt;pre&lt;/strong&gt;&lt;/span&gt;–&lt;a href=&#34;https://en.wikipedia.org/wiki/Posthuman&#34; target=&#34;_blank&#34;&gt;post-human&lt;/a&gt; writing. Otherwise, I’ve got this post until I can ask &lt;a href=&#34;http://www.amazon.com/gp/product/B00IA3NGB4/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00IA3NGB4&amp;linkCode=as2&amp;tag=whatisprogr-20&amp;linkId=TBPHK6DCRYLQKHGI&#34; target=&#34;_blank&#34;&gt;Her&lt;/a&gt; to fix it.&lt;/p&gt;
+&lt;h2 id=&#34;notes&#34;&gt;Notes
+&lt;/h2&gt;&lt;p&gt;Elon Musk mentions a “recursive y axis” in the video below as a way to measure progress, over time, of computation.&lt;/p&gt;
+&lt;p&gt;[youtube https://www.youtube.com/watch?v=rSl0HPLGFUU]&lt;/p&gt;
+&lt;p&gt;[1] – Factoring in energy you have &lt;a href=&#34;https://en.wikipedia.org/wiki/Performance_per_watt&#34; target=&#34;_blank&#34;&gt;performance per watt&lt;/a&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/Koomey%27s_law&#34; target=&#34;_blank&#34;&gt;Koomy’s law&lt;/a&gt;. This doesn’t tell us &lt;a href=&#34;http://royal.pingdom.com/2009/03/19/10-historical-software-bugs-with-extreme-consequences/&#34; target=&#34;_blank&#34;&gt;if the decisions were correct&lt;/a&gt;, or efficient (see &lt;a href=&#34;https://en.wikipedia.org/wiki/Big_O_notation&#34; target=&#34;_blank&#34;&gt;big O notation&lt;/a&gt; or &lt;a href=&#34;https://www.reddit.com/r/badcode&#34; target=&#34;_blank&#34;&gt;examples of bad code&lt;/a&gt;). Nor does this measure tell us how much pre-calculation went into a decision.&lt;/p&gt;
+&lt;p&gt;[2] – Maybe impact could be measured by how much money flows as a result. Or using &lt;a href=&#34;http://hdr.undp.org/en/content/human-development-index-hdi&#34; target=&#34;_blank&#34;&gt;HDI&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;[3] – A calculation is contained in a function like &lt;em&gt;f(x)=y&lt;/em&gt;, and the decision is the output. We could also say a calculation is made by a computer, and a decision is made by a human. (That line is already blurry).&lt;/p&gt;
+&lt;p&gt;Also – Check out the &lt;a href=&#34;https://www.quora.com/How-many-calculations-do-I-consume-per-day-or-even-per-second-versus-a-person-with-less-access-to-a-smartphone-or-the-Internet&#34; target=&#34;_blank&#34;&gt;posts&lt;/a&gt; on &lt;a href=&#34;https://www.quora.com/Could-computation-per-capita-be-a-scientific-measure-of-the-inequality-in-the-digital-divide&#34; target=&#34;_blank&#34;&gt;Quora&lt;/a&gt;, the &lt;a href=&#34;https://news.ycombinator.com/item?id=10934196&#34; target=&#34;_blank&#34;&gt;conversation on Hacker News&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Sneak peek at early decisions at HAI</title>
+        <link>//localhost:1313/?p=77/</link>
+        <pubDate>Thu, 16 May 2013 19:37:47 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/?p=77/</guid>
+        <description>&lt;p&gt;Recently launched a site with some basic vision behind HAI.&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;HAI - Human Assisted Intelligence&#34; href=&#34;http://hai.io&#34; target=&#34;_blank&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://hai.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://hai.io&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;But the tech stack is where the rubber meets the road. &lt;span style=&#34;line-height:1.6;&#34;&gt;I’ve been coding about two months now. At the very beginning I went through a fair amount of thinking and ended up selecting a language for the backend based on a number of factors. From languages I knew, C++, Go, PHP, Python, Java/Scala, and Node.js were on the table. Python and Java were the two top contenders, but I ended up going with Python. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;[googleapps domain=”docs” dir=”spreadsheet/pub” query=”key=0AtSfzP3z6m_6dElyYi1xaUpQQUwxNTJwYWVCR3JBYUE&amp;amp;output=html&amp;amp;widget=true” width=”500″ height=”300″ /]&lt;/p&gt;
+&lt;p&gt;So far I’ve been really happy with Python for both flexibility of the language, the available libraries for both web and machine learning, and the developer community. Ruby / Rails has an amazing community and great web stack, but given my own lack of familiarity and less work being done in machine learning, it didn’t make my list.&lt;/p&gt;
+&lt;p&gt;Then I started evaluating open source projects that would be the platform. There are 132 on the list below (looked at least 4x that many). It’s been amazing getting up to speed on the projects that are open source. Although Google, IBM, Amazon and others are clearly going to lead in the machine learning space for the foreseeable future, the open source community is catching up.&lt;/p&gt;
+&lt;p&gt;[googleapps domain=”docs” dir=”spreadsheet/pub” query=”key=0AtSfzP3z6m_6dHdiNWV5S2dPNjNZemE2M052ZHhjREE&amp;amp;output=html&amp;amp;widget=true” width=”500″ height=”300″ /]&lt;/p&gt;
+&lt;p&gt;Open source is a moving target, and there’s no one size fits all when you are piecing together something new. So, I’ve been using the awesome &lt;a href=&#34;http://www.zeromq.org/&#34; target=&#34;_blank&#34;&gt;ZeroMQ&lt;/a&gt; library to connect services between libraries, languages.&lt;/p&gt;
+&lt;p&gt;Finally, thanks to everyone who has provided feedback so far. Can’t wait to get what I’m working on out into the world.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Oh. HAI.</title>
+        <link>//localhost:1313/?p=54/</link>
+        <pubDate>Sun, 24 Feb 2013 16:47:16 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/?p=54/</guid>
+        <description>&lt;p&gt;HAI is the new company I’m working on. Human Assisted Intelligence. HAI will help computers learn about people. I’m so excited to be starting a new venture.&lt;/p&gt;
+&lt;p&gt;The future is happening right now. How far in the future will a product be relevant if you start developing it today?&lt;/p&gt;
+&lt;p&gt;Computer software / hardware outperforms humans in many specialized tasks today, and will likely surpass humans in categories reserved for our most revered public figures (scientists, politicians, performers) within 10-40 years. After the &lt;a class=&#34;link&#34; href=&#34;http://en.wikipedia.org/wiki/Technological_singularity&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Singularity&lt;/a&gt;, quoting the WikiPedia main article -“&lt;em&gt;Since the capabilities of such intelligence would be difficult for an unaided human mind to comprehend, the technological singularity is seen as an occurrence beyond which events cannot be predicted&lt;/em&gt;.”  Where will humans fit into this future? A question for science fiction, perhaps.&lt;/p&gt;
+&lt;p&gt;Before the Singularity, what will help us engage effectively with a world increasing its complexity, knowledge, and economic dynamics exponentially? If super computer intelligent systems are used only by the most powerful institutions, what kind of intelligent service represents the individual?&lt;/p&gt;
+&lt;p&gt;I think these are the most interesting, important challenges around AI. Today, I’m building a team and product prototypes. If you’re interested in collaborating, feel free &lt;a class=&#34;link&#34; href=&#34;mailto:jonathan.hendler&amp;#43;hai@gmail.com&#34; &gt;reach out&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

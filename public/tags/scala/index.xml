@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Scala on </title>
+        <link>//localhost:1313/tags/scala/</link>
+        <description>Recent content in Scala on </description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</managingEditor>
+        <webMaster>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</webMaster>
+        <lastBuildDate>Thu, 16 May 2013 19:37:47 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/scala/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Sneak peek at early decisions at HAI</title>
+        <link>//localhost:1313/?p=77/</link>
+        <pubDate>Thu, 16 May 2013 19:37:47 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/?p=77/</guid>
+        <description>&lt;p&gt;Recently launched a site with some basic vision behind HAI.&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;HAI - Human Assisted Intelligence&#34; href=&#34;http://hai.io&#34; target=&#34;_blank&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://hai.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://hai.io&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;But the tech stack is where the rubber meets the road. &lt;span style=&#34;line-height:1.6;&#34;&gt;I’ve been coding about two months now. At the very beginning I went through a fair amount of thinking and ended up selecting a language for the backend based on a number of factors. From languages I knew, C++, Go, PHP, Python, Java/Scala, and Node.js were on the table. Python and Java were the two top contenders, but I ended up going with Python. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;[googleapps domain=”docs” dir=”spreadsheet/pub” query=”key=0AtSfzP3z6m_6dElyYi1xaUpQQUwxNTJwYWVCR3JBYUE&amp;amp;output=html&amp;amp;widget=true” width=”500″ height=”300″ /]&lt;/p&gt;
+&lt;p&gt;So far I’ve been really happy with Python for both flexibility of the language, the available libraries for both web and machine learning, and the developer community. Ruby / Rails has an amazing community and great web stack, but given my own lack of familiarity and less work being done in machine learning, it didn’t make my list.&lt;/p&gt;
+&lt;p&gt;Then I started evaluating open source projects that would be the platform. There are 132 on the list below (looked at least 4x that many). It’s been amazing getting up to speed on the projects that are open source. Although Google, IBM, Amazon and others are clearly going to lead in the machine learning space for the foreseeable future, the open source community is catching up.&lt;/p&gt;
+&lt;p&gt;[googleapps domain=”docs” dir=”spreadsheet/pub” query=”key=0AtSfzP3z6m_6dHdiNWV5S2dPNjNZemE2M052ZHhjREE&amp;amp;output=html&amp;amp;widget=true” width=”500″ height=”300″ /]&lt;/p&gt;
+&lt;p&gt;Open source is a moving target, and there’s no one size fits all when you are piecing together something new. So, I’ve been using the awesome &lt;a href=&#34;http://www.zeromq.org/&#34; target=&#34;_blank&#34;&gt;ZeroMQ&lt;/a&gt; library to connect services between libraries, languages.&lt;/p&gt;
+&lt;p&gt;Finally, thanks to everyone who has provided feedback so far. Can’t wait to get what I’m working on out into the world.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Soliciting Advice: highly concurrent, available, non-blocking server</title>
+        <link>//localhost:1313/?p=10/</link>
+        <pubDate>Fri, 26 Mar 2010 22:32:00 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/?p=10/</guid>
+        <description>&lt;div&gt;
+  I&amp;#8217;m seeking feedback on a language or platform for a highly reliable and low latency web service / application.
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;strong&gt;Assumption&lt;/strong&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  Bottlenecks in a web service are usually related to data retrieval and storage, and eventually bandwidth and latency.&amp;nbsp;
+&lt;/div&gt;
+&lt;div&gt;
+  Highly concurrent, lightweight threads provide options for reliability, load distribution, and perceived performance that would otherwise not be available.&amp;nbsp;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;strong&gt;General Requirements&amp;nbsp;&lt;/strong&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;ul class=&#34;MailOutline&#34;&gt;
+    &lt;li&gt;
+      Easy to use (build, deploy, monitor)
+    &lt;/li&gt;
+    &lt;li&gt;
+      Plentiful external, stable, pre-integrated Libraries
+    &lt;/li&gt;
+    &lt;li&gt;
+      Use case: distributed, non-blocking web services
+    &lt;/li&gt;
+    &lt;li&gt;
+      Quite a bit of message and job queueing&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+      multiple databases , caching
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;strong&gt;Top candidates&lt;/strong&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  Very incomplete list of pros and cons, but some of my thoughts, highlighted.&amp;nbsp;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;ul class=&#34;MailOutline&#34;&gt;
+    &lt;li&gt;
+      &lt;strong&gt;&lt;em&gt;&lt;a href=&#34;http://www.scala-lang.org/&#34;&gt;Scala&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt; &lt;ul&gt;
+        &lt;li&gt;
+          pros &lt;ul&gt;
+            &lt;li&gt;
+              assume it will take great advantage of Java 1.7 concurrency, multi-core
+            &lt;/li&gt;
+            &lt;li&gt;
+              fairly trivial import of external java libs (except for non-thread safe?) &lt;ul&gt;
+                &lt;li&gt;
+                  e.g. ZooKeeper &amp;#8211; &lt;a href=&#34;http://hadoop.apache.org/zookeeper/docs/r3.0.0/index.html&#34;&gt;http://hadoop.apache.org/zookeeper/docs/r3.0.0/index.html&lt;/a&gt;
+                &lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+&lt;pre&gt;&lt;code&gt;    &amp;lt;li&amp;gt;
+      cons &amp;lt;ul&amp;gt;
+        &amp;lt;li&amp;gt;
+          new language syntax, paradigm learning curve
+        &amp;lt;/li&amp;gt;
+        &amp;lt;li&amp;gt;
+          doubts about JVM memory efficiency and stability as resources are constrained
+        &amp;lt;/li&amp;gt;
+      &amp;lt;/ul&amp;gt;
+    &amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+&amp;lt;/li&amp;gt;
+
+&amp;lt;li&amp;gt;
+  &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Server Side Javascript&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; &amp;amp;#8211; via&amp;amp;nbsp;&amp;lt;a href=&amp;quot;http://nodejs.org/&amp;quot;&amp;gt; node.js&amp;lt;/a&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp; &amp;lt;ul&amp;gt;
+    &amp;lt;li&amp;gt;
+      pros &amp;lt;ul&amp;gt;
+        &amp;lt;li&amp;gt;
+          redis integration for caching
+        &amp;lt;/li&amp;gt;
+        &amp;lt;li&amp;gt;
+          fast, lightweight, easy language.&amp;amp;nbsp;
+        &amp;lt;/li&amp;gt;
+        &amp;lt;li&amp;gt;
+          some custom js would be portable to browsers (coolness)
+        &amp;lt;/li&amp;gt;
+      &amp;lt;/ul&amp;gt;
+    &amp;lt;/li&amp;gt;
+    
+    &amp;lt;li&amp;gt;
+      cons &amp;lt;ul&amp;gt;
+        &amp;lt;li&amp;gt;
+          very new
+        &amp;lt;/li&amp;gt;
+        &amp;lt;li&amp;gt;
+          performance
+        &amp;lt;/li&amp;gt;
+        &amp;lt;li&amp;gt;
+          not as many external libs?
+        &amp;lt;/li&amp;gt;
+      &amp;lt;/ul&amp;gt;
+    &amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+&amp;lt;/li&amp;gt;
+
+&amp;lt;li&amp;gt;
+  &amp;lt;a href=&amp;quot;http://www.tornadoweb.org/&amp;quot;&amp;gt;Tornado&amp;lt;/a&amp;gt; &amp;lt;ul&amp;gt;
+    &amp;lt;li&amp;gt;
+      pros &amp;lt;ul&amp;gt;
+        &amp;lt;li&amp;gt;
+          Python &amp;lt;ul&amp;gt;
+            &amp;lt;li&amp;gt;
+              as many libs as Scala
+            &amp;lt;/li&amp;gt;
+          &amp;lt;/ul&amp;gt;
+        &amp;lt;/li&amp;gt;
+      &amp;lt;/ul&amp;gt;
+    &amp;lt;/li&amp;gt;
+    
+    &amp;lt;li&amp;gt;
+      cons &amp;lt;ul&amp;gt;
+        &amp;lt;li&amp;gt;
+          narrower use cases
+        &amp;lt;/li&amp;gt;
+        &amp;lt;li&amp;gt;
+          performance
+        &amp;lt;/li&amp;gt;
+      &amp;lt;/ul&amp;gt;
+    &amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+&amp;lt;/li&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &amp;nbsp;Would love comments, but a more complete list is presented in a survey:
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;div&gt;
+    &lt;span class=&#34;Apple-tab-span&#34;&gt; &lt;/span&gt;&lt;a href=&#34;http://www.surveymonkey.com/s/ZGQP6YJ&#34; target=&#34;_blank&#34;&gt;http://www.surveymonkey.com/s/ZGQP6YJ&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

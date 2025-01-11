@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Search on </title>
+        <link>//localhost:1313/tags/search/</link>
+        <description>Recent content in Search on </description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</managingEditor>
+        <webMaster>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</webMaster>
+        <lastBuildDate>Fri, 26 Mar 2010 19:34:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/search/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Field Collapsing in SOLR</title>
+        <link>//localhost:1313/?p=5/</link>
+        <pubDate>Fri, 26 Mar 2010 19:34:00 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/?p=5/</guid>
+        <description>&lt;div&gt;
+  &lt;span style=&#34;font-weight:bold;&#34;&gt;Field Collapsing&lt;/span&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;a href=&#34;http://wiki.apache.org/solr/FieldCollapsing&#34; target=&#34;_blank&#34;&gt;Field collapsing&lt;/a&gt; allows something akin to a &amp;#8220;group by&amp;#8221; in &lt;a href=&#34;http://lucene.apache.org/solr/&#34; target=&#34;_blank&#34;&gt;SOLR&lt;/a&gt;, so that the number of results returned reflect a logical grouping rather than another total.??
+&lt;/div&gt;
+&lt;div&gt;
+  Faceting can be used in conjunction. Facet counts reflect subsets within results, where-as collapse counts are &lt;em&gt;group by&lt;/em&gt; counts.
+&lt;/div&gt;
+&lt;div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  This means that Field Collapsing could be used for certain analytics, as well as the common use-case of nesting and grouping results. To use effectively, I found it helpful to &amp;#8220;pre-collapse&amp;#8221; certain fields, so that a new, unique string was created that could be used to easily group, since I believe you can only field collapse on a single field. (If I&amp;#8217;m wrong, please let me know!)
+&lt;/div&gt;
+&lt;div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;strong&gt;Special Setup&lt;/strong&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  This assumes you are or will be running a development version of SOLR (trunk via SVN).
+&lt;/div&gt;
+&lt;div&gt;
+  Field collapsing is not yet available in SOLR trunk and you must apply a patch file to SOLR and build again.
+&lt;/div&gt;
+&lt;div&gt;
+  If pulling in from trunk, download the patch found at &lt;a href=&#34;https://issues.apache.org/jira/browse/SOLR-236&#34;&gt;https://issues.apache.org/jira/browse/SOLR-236&lt;/a&gt; in to your solr source code directory.
+&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;wget &lt;a class=&#34;link&#34; href=&#34;https://issues.apache.org/jira/secure/attachment/12440108/SOLR-236-trunk.patch&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://issues.apache.org/jira/secure/attachment/12440108/SOLR-236-trunk.patch&lt;/a&gt;&lt;br&gt;
+patch -p 1 -i SOLR-236-trunk.patch&lt;/em&gt;&lt;/p&gt;
+&lt;div&gt;
+  And rebuild using supplied Apache Ant scripts.
+&lt;/div&gt;
+&lt;div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  Read more on these sites or in the comprehensive &amp;#8220;&lt;a href=&#34;http://www.packtpub.com/solr-1-4-enterprise-search-server/book&#34; target=&#34;_blank&#34;&gt;Solr 1.4, Enterprise Search Server&lt;/a&gt;&amp;#8221; page 191.
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;div&gt;
+    &lt;a href=&#34;http://wiki.apache.org/solr/FieldCollapsing&#34;&gt;http://wiki.apache.org/solr/FieldCollapsing&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;a href=&#34;http://blog.jteam.nl/2009/10/20/result-grouping-field-collapsing-with-solr/&#34;&gt;http://blog.jteam.nl/2009/10/20/result-grouping-field-collapsing-with-solr/&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;div&gt;
+    &lt;strong&gt;Why SOLR&lt;/strong&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    SOLR has a been a great tool for &lt;a href=&#34;http://BetterLesson.org&#34;&gt;BetterLesson.org&lt;/a&gt;. Because our primary database is MySQL, we looked at around 8 full-text indexers &amp;#8211; but the two finalists were Sphinx [1] and SOLR. Sphinx had very tight integration with MySQL, so the learning curve seemed less. ??SOLR required a JVM, an app server, and quite a lot of configuration.
+  &lt;/div&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    When we were deciding, an &lt;a href=&#34;http://www.packtpub.com/solr-1-4-enterprise-search-server/book&#34; target=&#34;_blank&#34;&gt;excellent SOLR book&lt;/a&gt; came out just when we were choosing. Further the SOLR IRC channel and mailing list for SOLR are friendly and quite active. We even had the option for commercial support through Massachusetts&amp;#8217; own Lucid Imagination. So I dove in.??While the configuration is non-trivial, but the configuration parameters have proven very powerful.??
+  &lt;/div&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;strong&gt;More background:&lt;/strong&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    I had written a half-dozen or so custom faceted search interfaces &amp;#8211; almost entirely using MySQL, and even one used &lt;a href=&#34;http://www.openrdf.org/&#34; target=&#34;_blank&#34;&gt;Sesame&lt;/a&gt; (an RDF store &amp;#8211; and it eventually worked pretty well). Skipping the stories of pain, confusion and suffering on the road to enlightenment &amp;#8211; SOLR has been great.??Used extensively at &lt;a href=&#34;http://Netflix.com&#34;&gt;Netflix.com&lt;/a&gt;, &lt;a href=&#34;http://Zappos.com&#34;&gt;Zappos.com&lt;/a&gt;, &lt;a href=&#34;http://CitySearch.com&#34;&gt;CitySearch.com&lt;/a&gt;, &lt;a href=&#34;http://Reddit.com&#34;&gt;Reddit.com&lt;/a&gt;, &lt;a href=&#34;http://Wego.com&#34;&gt;Wego.com&lt;/a&gt;, &lt;a href=&#34;http://Whitehouse.gov&#34;&gt;Whitehouse.gov&lt;/a&gt;, &lt;a href=&#34;http://Drupalgardens.com&#34;&gt;Drupalgardens.com&lt;/a&gt; and others [2], ??supported by Apache, based on Lucene, SOLR provides a scalable, distributed search and has good data import from MySQL, including delta queries.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  [1] &amp;#8211; Sphinx is used by Craigslist and &lt;a href=&#34;http://www.sphinxsearch.com/powered.html&#34;&gt;http://www.sphinxsearch.com/powered.html&lt;/a&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  [2] &amp;#8211; &lt;a href=&#34;http://wiki.apache.org/solr/PublicServers&#34;&gt;http://wiki.apache.org/solr/PublicServers&lt;/a&gt;
+&lt;/div&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

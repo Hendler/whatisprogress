@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>HAI on </title>
+        <link>//localhost:1313/tags/hai/</link>
+        <description>Recent content in HAI on </description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</managingEditor>
+        <webMaster>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</webMaster>
+        <lastBuildDate>Thu, 07 Mar 2013 22:08:22 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/hai/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>More about HAI</title>
+        <link>//localhost:1313/?p=68/</link>
+        <pubDate>Thu, 07 Mar 2013 22:08:22 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/?p=68/</guid>
+        <description>&lt;p&gt;For a few weeks I’ve been having meetings with advisors and colleagues. For those I’ve not been meeting, I’ve fallen behind in communicating &lt;a class=&#34;link&#34; href=&#34;http://whatisprogress.com/2013/02/24/oh-hai-human-assisted-intelligence/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;what I’m working on&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Not a stealth startup, but there’s also a lot that’s yet to be determined. I’d prefer to be open, but there are some specifications that I’ll keep under wraps for a variety of reasons…. When building a stealth aircraft, at the least you can tell people that you are building an aircraft. Skunkworks doesn’t make sandwiches.&lt;/p&gt;
+&lt;p&gt;Company vision and culture will be in large part determined by cofounders. Here’s where there’s some definition:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HAI means AAI (Artificial Artificial Intelligence)  – humans intelligence built into a process that’s usable by computer intelligence&lt;/li&gt;
+&lt;li&gt;Ethical prime directives.  See &lt;a class=&#34;link&#34; href=&#34;http://en.wikipedia.org/wiki/Friendly_artificial_intelligence&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Friendly AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;a sustainable business model early on&lt;/li&gt;
+&lt;li&gt;Company culture of sustainable innovation modeled after Google’s large revenue generating platform supporting R&amp;amp;D.&lt;/li&gt;
+&lt;li&gt;large, very talented, diverse founding team. Diversity is a no-brainer. Large is about five people; I’d rather create value from equity by distributing to founders than funders.&lt;/li&gt;
+&lt;li&gt;Boston still has untapped talent and potential. Even if developers can find jobs easily, what kind of job would an engineer want for the rest of their life?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Digital Divide on </title>
+        <link>//localhost:1313/tags/digital-divide/</link>
+        <description>Recent content in Digital Divide on </description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</managingEditor>
+        <webMaster>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</webMaster>
+        <lastBuildDate>Tue, 19 Jan 2016 21:26:53 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/digital-divide/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Measuring the digital divide</title>
+        <link>//localhost:1313/?p=176/</link>
+        <pubDate>Tue, 19 Jan 2016 21:26:53 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/?p=176/</guid>
+        <description>&lt;h2 id=&#34;howmany-calculations-do-i-consume-per-day-or-per-second-compared-toa-person-with-lessaccess-to-a-smartphone-or-the-internet&#34;&gt;How many calculations do I consume per day (or per second), compared to a person with less access to a smartphone or the Internet?
+&lt;/h2&gt;&lt;p&gt;Computation per capita could be a scientific measure of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Digital_divide&#34; target=&#34;_blank&#34;&gt;digital divide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Computing may forever be bits and powered logic gates. We measure computer output with &lt;a href=&#34;https://en.wikipedia.org/wiki/FLOPS&#34; target=&#34;_blank&#34;&gt;FLOPS&lt;/a&gt;. [1]  We can average total computational power per person. Segmenting by country adds more insight, which would be similar to &lt;a href=&#34;http://data.worldbank.org/indicator/IT.NET.USER.P2/countries/1W?display=map&#34; target=&#34;_blank&#34;&gt;maps of Internet access&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We make decisions in some parts of the world without much computation. To improve inequality we provide greater access to computation.&lt;/p&gt;
+&lt;p&gt;Google and other open services are a force for equality. The cost of a search for any user in one part of the world is near equal to all others. The equality isn’t perfect. Google has more data about me and how I live, so there’s more computation done on my behalf. But even if that is true, less Google is likely better than no Google.&lt;/p&gt;
+&lt;h3 id=&#34;we-could-try-to-measure-computation-per-8220decision8221&#34;&gt;We could try to measure computation per “decision”.
+&lt;/h3&gt;&lt;p&gt;Decisions have measurable amounts of computation. What is the average amount of computation that happens when you tap your phone (in the cloud and on the phone)? I don’t know if we could measure the impact of a tap.[2]  But we could calculate the computational output of a click or tap.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a &lt;a href=&#34;https://googleblog.blogspot.com/2009/01/powering-google-search.html&#34; target=&#34;_blank&#34;&gt;single google search&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.math.nyu.edu/faculty/avellane/QuantCongressUSA2011AlgoTradingLAST.pdf&#34; target=&#34;_blank&#34;&gt;an automated stock purchase&lt;/a&gt;, &lt;a href=&#34;http://math.mit.edu/~freer/papers/PhysRevE_82-056104.pdf&#34; target=&#34;_blank&#34;&gt;over a network&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.itasoftware.com/&#34; target=&#34;_blank&#34;&gt;pricing an airline ticket&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;a second of a [self]-driving a car  (&lt;a href=&#34;http://www.fool.com/investing/general/2016/01/12/nvidia-doubles-down-on-the-self-driving-car.aspx&#34; target=&#34;_blank&#34;&gt;NVidia suggests 24 teraflops&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kdnuggets.com/2015/03/interview-brad-klingenberg-stitchfix-machine-learning.html&#34; target=&#34;_blank&#34;&gt;buying a dress&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;a single &lt;a href=&#34;http://www.co2stats.com/&#34; target=&#34;_blank&#34;&gt;web page&lt;/a&gt; loading&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;how-could-you-compare-the-list-above-to-one-hundred-years-ago-or-one-hundred-years-in-the-future&#34;&gt;How could you compare the list above to one hundred years ago, or one hundred years in the future?
+&lt;/h3&gt;&lt;p&gt;Perhaps the closest analog to the Internet in the last century was the number of telegrams, pieces of mail, or minutes of phone calls;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;to design and build a locomotive&lt;/li&gt;
+&lt;li&gt;buy a stock&lt;/li&gt;
+&lt;li&gt;buy a ticket on a &lt;a href=&#34;https://en.wikipedia.org/wiki/LZ_127_Graf_Zeppelin&#34; target=&#34;_blank&#34;&gt;trans-Atlantic zeppelin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;decide when to plant corn&lt;/li&gt;
+&lt;li&gt;decide to get married&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;One hundred years in the future I’m not sure what we’ll be doing, but I hope we will still make useful decisions. Some possible examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.huffingtonpost.com/2014/09/08/3d-printed-houses_n_5773408.html&#34; target=&#34;_blank&#34;&gt;3D print your fourth house&lt;/a&gt; by tomorrow&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wired.com/2015/07/crispr-dna-editing-2/&#34; target=&#34;_blank&#34;&gt;create a new species&lt;/a&gt; of flower for your children’s garden&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.smithsonianmag.com/innovation/quest-upload-mind-into-digital-space-180954946/?no-ist&#34; target=&#34;_blank&#34;&gt;make a copy of your brain&lt;/a&gt; and &lt;a href=&#34;http://www.extremetech.com/extreme/163051-simulating-1-second-of-human-brain-activity-takes-82944-processors&#34; target=&#34;_blank&#34;&gt;have it decide&lt;/a&gt; if you &lt;a href=&#34;http://www.amazon.com/gp/product/0441014151/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0441014151&amp;linkCode=as2&amp;tag=whatisprogr-20&amp;linkId=UB6H2TQLWFWHE7MH&#34; target=&#34;_blank&#34;&gt;should get married by interacting with a copy of your potential partner’s brain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;bring &lt;a href=&#34;http://waffles-the-cat.tumblr.com/post/28807020123/cat-on-mars&#34; target=&#34;_blank&#34;&gt;your cloned cat Waffles the XIV&lt;/a&gt; home from its &lt;a href=&#34;http://www.space.com/28215-elon-musk-spacex-mars-colony-idea.html&#34; target=&#34;_blank&#34;&gt;vacation to Mars&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-couldwe-name8220computations-per-decision8221&#34;&gt;What could we name “computations per decision”?
+&lt;/h3&gt;&lt;p&gt;Since I’m an unqualified amateur, I’ll make up a term; &lt;span style=&#34;text-decoration:underline;&#34;&gt;&lt;strong&gt;decision density&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;The number of bits used per a unit of time to make a &lt;span style=&#34;text-decoration:underline;&#34;&gt;perceived&lt;/span&gt; decision.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Note “perceived”. By definition, we must be able to observe when we’ve made a decision. We do so based on the support of many calculations, but most computation is hidden [3] and &lt;a href=&#34;https://en.wikipedia.org/wiki/Ubiquitous_computing&#34; target=&#34;_blank&#34;&gt;increasingly ubiquitous&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If we can measure decision density per human, we would have another tool to measure the digital divide.&lt;/p&gt;
+&lt;p&gt;I look forward to mathy, articulate, and design oriented humans to elevate my &lt;span style=&#34;text-decoration:underline;&#34;&gt;&lt;strong&gt;pre&lt;/strong&gt;&lt;/span&gt;–&lt;a href=&#34;https://en.wikipedia.org/wiki/Posthuman&#34; target=&#34;_blank&#34;&gt;post-human&lt;/a&gt; writing. Otherwise, I’ve got this post until I can ask &lt;a href=&#34;http://www.amazon.com/gp/product/B00IA3NGB4/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00IA3NGB4&amp;linkCode=as2&amp;tag=whatisprogr-20&amp;linkId=TBPHK6DCRYLQKHGI&#34; target=&#34;_blank&#34;&gt;Her&lt;/a&gt; to fix it.&lt;/p&gt;
+&lt;h2 id=&#34;notes&#34;&gt;Notes
+&lt;/h2&gt;&lt;p&gt;Elon Musk mentions a “recursive y axis” in the video below as a way to measure progress, over time, of computation.&lt;/p&gt;
+&lt;p&gt;[youtube https://www.youtube.com/watch?v=rSl0HPLGFUU]&lt;/p&gt;
+&lt;p&gt;[1] – Factoring in energy you have &lt;a href=&#34;https://en.wikipedia.org/wiki/Performance_per_watt&#34; target=&#34;_blank&#34;&gt;performance per watt&lt;/a&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/Koomey%27s_law&#34; target=&#34;_blank&#34;&gt;Koomy’s law&lt;/a&gt;. This doesn’t tell us &lt;a href=&#34;http://royal.pingdom.com/2009/03/19/10-historical-software-bugs-with-extreme-consequences/&#34; target=&#34;_blank&#34;&gt;if the decisions were correct&lt;/a&gt;, or efficient (see &lt;a href=&#34;https://en.wikipedia.org/wiki/Big_O_notation&#34; target=&#34;_blank&#34;&gt;big O notation&lt;/a&gt; or &lt;a href=&#34;https://www.reddit.com/r/badcode&#34; target=&#34;_blank&#34;&gt;examples of bad code&lt;/a&gt;). Nor does this measure tell us how much pre-calculation went into a decision.&lt;/p&gt;
+&lt;p&gt;[2] – Maybe impact could be measured by how much money flows as a result. Or using &lt;a href=&#34;http://hdr.undp.org/en/content/human-development-index-hdi&#34; target=&#34;_blank&#34;&gt;HDI&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;[3] – A calculation is contained in a function like &lt;em&gt;f(x)=y&lt;/em&gt;, and the decision is the output. We could also say a calculation is made by a computer, and a decision is made by a human. (That line is already blurry).&lt;/p&gt;
+&lt;p&gt;Also – Check out the &lt;a href=&#34;https://www.quora.com/How-many-calculations-do-I-consume-per-day-or-even-per-second-versus-a-person-with-less-access-to-a-smartphone-or-the-Internet&#34; target=&#34;_blank&#34;&gt;posts&lt;/a&gt; on &lt;a href=&#34;https://www.quora.com/Could-computation-per-capita-be-a-scientific-measure-of-the-inequality-in-the-digital-divide&#34; target=&#34;_blank&#34;&gt;Quora&lt;/a&gt;, the &lt;a href=&#34;https://news.ycombinator.com/item?id=10934196&#34; target=&#34;_blank&#34;&gt;conversation on Hacker News&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

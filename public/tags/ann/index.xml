@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ANN on </title>
+        <link>//localhost:1313/tags/ann/</link>
+        <description>Recent content in ANN on </description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</managingEditor>
+        <webMaster>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</webMaster>
+        <lastBuildDate>Sun, 24 Feb 2013 16:47:16 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/ann/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Oh. HAI.</title>
+        <link>//localhost:1313/?p=54/</link>
+        <pubDate>Sun, 24 Feb 2013 16:47:16 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/?p=54/</guid>
+        <description>&lt;p&gt;HAI is the new company I’m working on. Human Assisted Intelligence. HAI will help computers learn about people. I’m so excited to be starting a new venture.&lt;/p&gt;
+&lt;p&gt;The future is happening right now. How far in the future will a product be relevant if you start developing it today?&lt;/p&gt;
+&lt;p&gt;Computer software / hardware outperforms humans in many specialized tasks today, and will likely surpass humans in categories reserved for our most revered public figures (scientists, politicians, performers) within 10-40 years. After the &lt;a class=&#34;link&#34; href=&#34;http://en.wikipedia.org/wiki/Technological_singularity&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Singularity&lt;/a&gt;, quoting the WikiPedia main article -“&lt;em&gt;Since the capabilities of such intelligence would be difficult for an unaided human mind to comprehend, the technological singularity is seen as an occurrence beyond which events cannot be predicted&lt;/em&gt;.”  Where will humans fit into this future? A question for science fiction, perhaps.&lt;/p&gt;
+&lt;p&gt;Before the Singularity, what will help us engage effectively with a world increasing its complexity, knowledge, and economic dynamics exponentially? If super computer intelligent systems are used only by the most powerful institutions, what kind of intelligent service represents the individual?&lt;/p&gt;
+&lt;p&gt;I think these are the most interesting, important challenges around AI. Today, I’m building a team and product prototypes. If you’re interested in collaborating, feel free &lt;a class=&#34;link&#34; href=&#34;mailto:jonathan.hendler&amp;#43;hai@gmail.com&#34; &gt;reach out&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>AI on </title>
+        <link>//localhost:1313/categories/ai/</link>
+        <description>Recent content in AI on </description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</managingEditor>
+        <webMaster>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</webMaster>
+        <lastBuildDate>Sun, 19 Mar 2023 08:43:38 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/ai/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Where to start building for long term AI safety and alignment?</title>
+        <link>//localhost:1313/?p=798/</link>
+        <pubDate>Sun, 19 Mar 2023 08:43:38 +0000</pubDate>
+        <author>jonathan.hendler&#43;whatisprogress@gmail.com (Jonathan Hendler)</author>
+        <guid>//localhost:1313/?p=798/</guid>
+        <description>&lt;p&gt;OpenAI and other AI companies will unlock a transition and the reorganization of nearly everything. _Long term _positive impact will be an increasing challenge, as we try to manage unintended consequences.&lt;/p&gt;
+&lt;div class=&#34;wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained&#34;&gt;
+  &lt;figure class=&#34;wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio&#34;&gt;
+  &lt;div class=&#34;wp-block-embed__wrapper&#34;&gt;
+  &lt;/div&gt;&lt;/figure&gt; 
+  &lt;p&gt;
+    Short term safety issues are urgent, but clear as we work to manage malicious actors. There are&lt;a rel=&#34;noreferrer noopener&#34; href=&#34;https://alexw.substack.com/p/war&#34; target=&#34;_blank&#34;&gt; broader international challenges&lt;/a&gt;, including with China.
+  &lt;/p&gt;&lt;figure class=&#34;wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter&#34;&gt;
+  &lt;div class=&#34;wp-block-embed__wrapper&#34;&gt;
+    &lt;blockquote class=&#34;twitter-tweet&#34; data-width=&#34;500&#34; data-dnt=&#34;true&#34;&gt;
+      &lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+        This is a reality. We will build amazing things with AI, not as a luxury, but to make a better world the only world. &lt;br /&gt;&lt;br /&gt;I&#39;ve seen discontent with the establishment (policy, public safety) turn into disconnection. We need to come together on these issues. &lt;br /&gt;&lt;br /&gt;Via &lt;a href=&#34;https://twitter.com/alexandr_wang?ref_src=twsrc%5Etfw&#34;&gt;@alexandr_wang&lt;/a&gt; &lt;a href=&#34;https://t.co/ayxaS00W7v&#34;&gt;https://t.co/ayxaS00W7v&lt;/a&gt;
+      &lt;/p&gt;&amp;mdash; Jonathan Hendler 🪰 (@hendler) 
+&lt;pre&gt;&lt;code&gt;  &amp;lt;a href=&amp;quot;https://twitter.com/hendler/status/1637232655543697408?ref_src=twsrc%5Etfw&amp;quot;&amp;gt;March 18, 2023&amp;lt;/a&amp;gt;
+&amp;lt;/blockquote&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;While short term considerations are key, long term safety requires massive prediction and forecasting abilities, with the right initial conditions. What is an anchor AGI and superintelligence so that it doesn’t destroy us? The function may be one of &lt;strong&gt;freedom of consciousness for the most beings, as long as possible&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Via a prompt to GPT-4:&lt;/p&gt;
+&lt;div class=&#34;wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained&#34;&gt;
+  &lt;p&gt;
+    As we delve deeper into the realm of AI safety and alignment, it is crucial to explore technical examples of how one might construct an AI system with long-term alignment. Let&amp;#8217;s consider the idea that the overarching function of AGI revolves around maximizing freedom of consciousness for the greatest number of beings, for as long as possible.
+  &lt;/p&gt;
+  &lt;ol class=&#34;wp-block-list&#34;&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Incorporating Value Alignment:&lt;/strong&gt; To ensure the AI system aligns with the intended goal, we must explicitly integrate human values into the AGI&amp;#8217;s objective function. This may involve techniques such as inverse reinforcement learning, where the AI system learns the preferences of human beings by observing their actions and decisions.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Designing an Expandable Utility Function:&lt;/strong&gt; To accommodate the evolving nature of human values and societal changes, the AI system&amp;#8217;s utility function should be flexible and adaptive. It could be designed to incorporate new information, allowing the AI system to refine its understanding of the concept of &amp;#8220;freedom of consciousness&amp;#8221; and the best ways to maximize it.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Incorporating Multi-Agent Collaboration:&lt;/strong&gt; Since maximizing freedom of consciousness for the greatest number of beings might involve coordination among multiple AI systems, we should focus on building AI systems that can cooperate with other agents. Techniques such as multi-agent reinforcement learning can be employed to ensure that AI systems learn to collaborate effectively.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Bias Mitigation:&lt;/strong&gt; Ensuring fairness and avoiding biases in the AI system is crucial for maximizing freedom of consciousness. By incorporating techniques like adversarial training and fairness-aware machine learning, we can work towards building AI systems that treat all individuals fairly, regardless of their background or demographic characteristics.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Long-term Impact Assessment:&lt;/strong&gt; To evaluate the long-term consequences of the AI system&amp;#8217;s actions, we can employ techniques such as Monte Carlo Tree Search (MCTS) and counterfactual simulations. These methods can help the AI system explore the potential outcomes of its decisions and choose actions that align with the goal of maximizing freedom of consciousness in the long run.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;strong&gt;Robustness and Safety Measures:&lt;/strong&gt; To ensure the AI system remains aligned with the goal even under uncertain conditions, we can implement safety measures such as reward modeling, conservative policy updates, and distributional reinforcement learning. These techniques can help the AI system avoid catastrophic failures and maintain alignment with the objective of maximizing freedom of consciousness.
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+&lt;p&gt;The next prompt:&lt;/p&gt;
+&lt;p&gt;_Please expand on what “freedom of consciousness for the most beings, as long as possible” means. First, what is considered conscious, including definitions like Tsukumogami/animism and the belief that only some humans are. Also, what is freedom? Is it a metaphor for “freedom ends at the tip of my nose?” What kinds of ethical conflicts can arise when you try to include the most beings as possible? Finally what is the tradeoff between long term and short term efforts to preserve a consciousness?&lt;br&gt;
+_&lt;br&gt;
+The response:&lt;/p&gt;
+&lt;p&gt;“Freedom of consciousness for the most beings, as long as possible” is a multifaceted concept that entails addressing several key questions, such as the definition of consciousness, the meaning of freedom, potential ethical conflicts, and the trade-offs between short-term and long-term efforts.&lt;/p&gt;
+&lt;ol class=&#34;wp-block-list&#34;&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Defining Consciousness:&lt;/strong&gt; The notion of consciousness is a subject of ongoing debate among philosophers, scientists, and AI researchers. In the context of AI alignment, we can consider a spectrum of definitions, ranging from the belief that only some humans possess consciousness, to more inclusive perspectives like animism or the concept of Tsukumogami (Japanese folklore, where inanimate objects can acquire a spirit after a certain period). Establishing a clear and precise definition of consciousness is essential for determining which beings should be considered when maximizing freedom of consciousness.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Understanding Freedom:&lt;/strong&gt; Freedom can be interpreted in various ways, often depending on cultural, philosophical, or individual perspectives. One common interpretation is the notion that &amp;#8220;freedom ends at the tip of my nose,&amp;#8221; meaning that an individual&amp;#8217;s freedom should not infringe upon the rights or freedoms of others. In the context of AI alignment, freedom may involve ensuring that conscious beings can exercise their autonomy, make choices, and pursue their well-being without interference from AI systems or other external forces.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Ethical Conflicts:&lt;/strong&gt; When attempting to include the most beings possible, several ethical conflicts may arise. For instance, the interests of different beings may sometimes be at odds, leading to dilemmas where AI systems must prioritize certain beings over others. Additionally, cultural and philosophical differences in interpreting consciousness and freedom may complicate the decision-making process for AI systems. Balancing these competing interests and values is a significant challenge in AI alignment.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Short-term vs. Long-term Efforts:&lt;/strong&gt; Preserving consciousness might involve trade-offs between short-term and long-term efforts. Immediate actions may be necessary to protect conscious beings from immediate harm, while long-term efforts may focus on creating sustainable environments and societies that allow conscious beings to flourish. AI systems must balance these priorities, making decisions that may involve sacrificing short-term benefits for more significant long-term gains or vice versa. This balancing act may require advanced predictive capabilities and a deep understanding of the dynamic relationships between various factors that influence the well-being of conscious beings.
+  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To design AI systems capable of maximizing freedom of consciousness for the most beings, as long as possible, it is crucial to address these complex questions and navigate the myriad ethical, philosophical, and practical challenges they present. By doing so, we can work towards creating AGI that not only aligns with our values but also respects the autonomy and well-being of all conscious beings.&lt;/p&gt;
+&lt;p&gt;By incorporating these technical approaches into the design and development of AI systems, we can work towards building AGI that genuinely aligns with the long-term goal of maximizing freedom of consciousness for the greatest number of beings, for as long as possible. This will require continuous research, collaboration, and innovation in the field of AI safety and alignment.&lt;figure class=&#34;wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;wp-block-embed__wrapper&#34;&gt;
+&lt;/div&gt;&lt;/figure&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

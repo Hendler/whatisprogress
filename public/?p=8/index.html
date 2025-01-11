@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=" For me, web engineers are the magicians behind the curtain. That can mean not-a-lot of glory. But for engineers like myself, undone engineering is more painful than unsung engineering.??One of the most difficult aspects of being a good engineer is knowing when to sacrifice good engineering. ??Startups, are by definition, challenging the established way of doing business, so the established way of doing great engineering sometimes isn&#8217;t good enough to survive. ?? ( Although this is a topic pretty well covered in writing about startups , I try translate the constraints of a startup into what a priority list for technical leadership might look like. )?? Everything in a startup changes fast.??Engineering is managed chaos.??There are new team members, new customers, new data, new open source libraries, etc. Good engineering can accommodate change, but usually change is unexpected. As a side effect, the non-technical team begins to depend on the shortcuts, and the shortcuts begin to show their weaknesses. The design team has new ideas, and you can&#8217;t say yes as often as you used to.?? But you survive.?? Here are the priorities I use to keep everything moving for a web application startup (follows an 80 / 20 rule pretty well): protect the data (files/database, etc) back it up make sure data is valid (ideally some smoke tests, unit tests, regression tests on the data layer of an application) back it up source control with easy to understand policies and branching back it up automate backing it up &lt;li&gt; &lt;strong&gt;fix problems with the user experiences&lt;/strong&gt; &lt;ol&gt; &lt;li&gt; small visual problems can make people &amp;#8230; disgusted. Fonts, cross browser issues take a lot of time, but matter to people who expect things to work.?? &lt;/li&gt; &lt;li&gt; client (browser) speed &amp;#8211; a small javascript issue can cause a page load to appear to take 5 seconds. &lt;em&gt;Perceived&lt;/em&gt; performance is all that matters.?? &lt;/li&gt; &lt;li&gt; fix display issues &amp;#8211; if they think data is lost, then it is?? &lt;/li&gt; &lt;li&gt; integrated QA team &amp;#8211; make everyone on the team test the site, but not their own work. &lt;/li&gt; &lt;/ol&gt; &lt;/li&gt; &lt;li&gt; &lt;strong&gt;make coding fast&lt;/strong&gt; &lt;ol&gt; &lt;li&gt; establish team communication that makes product iteration rapid &lt;/li&gt; &lt;li&gt; use frameworks, existing but stable libraries (open source so you can fix critical problems yourself) &lt;/li&gt; &lt;li&gt; keep version control and deployment as automated as possible for the whole team &lt;/li&gt; &lt;li&gt; write easy to understand code &lt;/li&gt; &lt;li&gt; document code and best practices (wiki style) &lt;/li&gt; &lt;li&gt; track problems (bugs and backlogs) &lt;/li&gt; &lt;li&gt; write test code (on critical areas) &lt;/li&gt; &lt;/ol&gt; &lt;/li&gt; &lt;li&gt; &lt;strong&gt;housekeeping&lt;/strong&gt; &lt;ol&gt; &lt;li&gt; refactor &lt;/li&gt; &lt;li&gt; cleanup &lt;/li&gt; &lt;li&gt; more test code &lt;/li&gt; &lt;/ol&gt; &lt;/li&gt; &lt;li&gt; &lt;strong&gt;new features/ scaling/performance&lt;/strong&gt;??- probably the most fun for an engineer, but last on the list. This has been the hardest for me. ??Engineers need to think about scaling when the system is architected&amp;#8230;. maybe. But when you have just a 10 customers and the entire database fits in memory&amp;#8230; why worry? &lt;ol&gt; &lt;li&gt; database ??- a typical bottleneck. NoSQL and distributed architectures are making this easier &lt;/li&gt; &lt;li&gt; separate web server from application layer. Concentrate core application logic into languages that are better suited for scaling and concurrency issues &lt;/li&gt; &lt;li&gt; load balance, messaging queues, etc &lt;/li&gt; &lt;/ol&gt; &lt;/li&gt; Because of the list above, not every engineer out of a great tech school or amazing high tech corporation adjusts to startup life well. But when the above begins to pay dividends, engineers appreciate the big picture. ">
+<title>Startups are built with both Undone and Unsung Engineering</title>
+
+<link rel='canonical' href='//localhost:1313/?p=8/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Startups are built with both Undone and Unsung Engineering">
+<meta property='og:description' content=" For me, web engineers are the magicians behind the curtain. That can mean not-a-lot of glory. But for engineers like myself, undone engineering is more painful than unsung engineering.??One of the most difficult aspects of being a good engineer is knowing when to sacrifice good engineering. ??Startups, are by definition, challenging the established way of doing business, so the established way of doing great engineering sometimes isn&#8217;t good enough to survive. ?? ( Although this is a topic pretty well covered in writing about startups , I try translate the constraints of a startup into what a priority list for technical leadership might look like. )?? Everything in a startup changes fast.??Engineering is managed chaos.??There are new team members, new customers, new data, new open source libraries, etc. Good engineering can accommodate change, but usually change is unexpected. As a side effect, the non-technical team begins to depend on the shortcuts, and the shortcuts begin to show their weaknesses. The design team has new ideas, and you can&#8217;t say yes as often as you used to.?? But you survive.?? Here are the priorities I use to keep everything moving for a web application startup (follows an 80 / 20 rule pretty well): protect the data (files/database, etc) back it up make sure data is valid (ideally some smoke tests, unit tests, regression tests on the data layer of an application) back it up source control with easy to understand policies and branching back it up automate backing it up &lt;li&gt; &lt;strong&gt;fix problems with the user experiences&lt;/strong&gt; &lt;ol&gt; &lt;li&gt; small visual problems can make people &amp;#8230; disgusted. Fonts, cross browser issues take a lot of time, but matter to people who expect things to work.?? &lt;/li&gt; &lt;li&gt; client (browser) speed &amp;#8211; a small javascript issue can cause a page load to appear to take 5 seconds. &lt;em&gt;Perceived&lt;/em&gt; performance is all that matters.?? &lt;/li&gt; &lt;li&gt; fix display issues &amp;#8211; if they think data is lost, then it is?? &lt;/li&gt; &lt;li&gt; integrated QA team &amp;#8211; make everyone on the team test the site, but not their own work. &lt;/li&gt; &lt;/ol&gt; &lt;/li&gt; &lt;li&gt; &lt;strong&gt;make coding fast&lt;/strong&gt; &lt;ol&gt; &lt;li&gt; establish team communication that makes product iteration rapid &lt;/li&gt; &lt;li&gt; use frameworks, existing but stable libraries (open source so you can fix critical problems yourself) &lt;/li&gt; &lt;li&gt; keep version control and deployment as automated as possible for the whole team &lt;/li&gt; &lt;li&gt; write easy to understand code &lt;/li&gt; &lt;li&gt; document code and best practices (wiki style) &lt;/li&gt; &lt;li&gt; track problems (bugs and backlogs) &lt;/li&gt; &lt;li&gt; write test code (on critical areas) &lt;/li&gt; &lt;/ol&gt; &lt;/li&gt; &lt;li&gt; &lt;strong&gt;housekeeping&lt;/strong&gt; &lt;ol&gt; &lt;li&gt; refactor &lt;/li&gt; &lt;li&gt; cleanup &lt;/li&gt; &lt;li&gt; more test code &lt;/li&gt; &lt;/ol&gt; &lt;/li&gt; &lt;li&gt; &lt;strong&gt;new features/ scaling/performance&lt;/strong&gt;??- probably the most fun for an engineer, but last on the list. This has been the hardest for me. ??Engineers need to think about scaling when the system is architected&amp;#8230;. maybe. But when you have just a 10 customers and the entire database fits in memory&amp;#8230; why worry? &lt;ol&gt; &lt;li&gt; database ??- a typical bottleneck. NoSQL and distributed architectures are making this easier &lt;/li&gt; &lt;li&gt; separate web server from application layer. Concentrate core application logic into languages that are better suited for scaling and concurrency issues &lt;/li&gt; &lt;li&gt; load balance, messaging queues, etc &lt;/li&gt; &lt;/ol&gt; &lt;/li&gt; Because of the list above, not every engineer out of a great tech school or amazing high tech corporation adjusts to startup life well. But when the above begins to pay dividends, engineers appreciate the big picture. ">
+<meta property='og:url' content='//localhost:1313/?p=8/'>
+<meta property='og:site_name' content=''>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:published_time' content='2010-05-13T18:06:00&#43;00:00'/><meta property='article:modified_time' content='2010-05-13T18:06:00&#43;00:00'/>
+<meta name="twitter:title" content="Startups are built with both Undone and Unsung Engineering">
+<meta name="twitter:description" content=" For me, web engineers are the magicians behind the curtain. That can mean not-a-lot of glory. But for engineers like myself, undone engineering is more painful than unsung engineering.??One of the most difficult aspects of being a good engineer is knowing when to sacrifice good engineering. ??Startups, are by definition, challenging the established way of doing business, so the established way of doing great engineering sometimes isn&#8217;t good enough to survive. ?? ( Although this is a topic pretty well covered in writing about startups , I try translate the constraints of a startup into what a priority list for technical leadership might look like. )?? Everything in a startup changes fast.??Engineering is managed chaos.??There are new team members, new customers, new data, new open source libraries, etc. Good engineering can accommodate change, but usually change is unexpected. As a side effect, the non-technical team begins to depend on the shortcuts, and the shortcuts begin to show their weaknesses. The design team has new ideas, and you can&#8217;t say yes as often as you used to.?? But you survive.?? Here are the priorities I use to keep everything moving for a web application startup (follows an 80 / 20 rule pretty well): protect the data (files/database, etc) back it up make sure data is valid (ideally some smoke tests, unit tests, regression tests on the data layer of an application) back it up source control with easy to understand policies and branching back it up automate backing it up &lt;li&gt; &lt;strong&gt;fix problems with the user experiences&lt;/strong&gt; &lt;ol&gt; &lt;li&gt; small visual problems can make people &amp;#8230; disgusted. Fonts, cross browser issues take a lot of time, but matter to people who expect things to work.?? &lt;/li&gt; &lt;li&gt; client (browser) speed &amp;#8211; a small javascript issue can cause a page load to appear to take 5 seconds. &lt;em&gt;Perceived&lt;/em&gt; performance is all that matters.?? &lt;/li&gt; &lt;li&gt; fix display issues &amp;#8211; if they think data is lost, then it is?? &lt;/li&gt; &lt;li&gt; integrated QA team &amp;#8211; make everyone on the team test the site, but not their own work. &lt;/li&gt; &lt;/ol&gt; &lt;/li&gt; &lt;li&gt; &lt;strong&gt;make coding fast&lt;/strong&gt; &lt;ol&gt; &lt;li&gt; establish team communication that makes product iteration rapid &lt;/li&gt; &lt;li&gt; use frameworks, existing but stable libraries (open source so you can fix critical problems yourself) &lt;/li&gt; &lt;li&gt; keep version control and deployment as automated as possible for the whole team &lt;/li&gt; &lt;li&gt; write easy to understand code &lt;/li&gt; &lt;li&gt; document code and best practices (wiki style) &lt;/li&gt; &lt;li&gt; track problems (bugs and backlogs) &lt;/li&gt; &lt;li&gt; write test code (on critical areas) &lt;/li&gt; &lt;/ol&gt; &lt;/li&gt; &lt;li&gt; &lt;strong&gt;housekeeping&lt;/strong&gt; &lt;ol&gt; &lt;li&gt; refactor &lt;/li&gt; &lt;li&gt; cleanup &lt;/li&gt; &lt;li&gt; more test code &lt;/li&gt; &lt;/ol&gt; &lt;/li&gt; &lt;li&gt; &lt;strong&gt;new features/ scaling/performance&lt;/strong&gt;??- probably the most fun for an engineer, but last on the list. This has been the hardest for me. ??Engineers need to think about scaling when the system is architected&amp;#8230;. maybe. But when you have just a 10 customers and the entire database fits in memory&amp;#8230; why worry? &lt;ol&gt; &lt;li&gt; database ??- a typical bottleneck. NoSQL and distributed architectures are making this easier &lt;/li&gt; &lt;li&gt; separate web server from application layer. Concentrate core application logic into languages that are better suited for scaling and concurrency issues &lt;/li&gt; &lt;li&gt; load balance, messaging queues, etc &lt;/li&gt; &lt;/ol&gt; &lt;/li&gt; Because of the list above, not every engineer out of a great tech school or amazing high tech corporation adjusts to startup life well. But when the above begins to pay dividends, engineers appreciate the big picture. ">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu13739649187745961479.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🎯</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="//localhost:1313/"></a></h1>
+            <h2 class="site-description">Your subtitle here</h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/posts/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Posts</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/uncategorized/" >
+                Uncategorized
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/?p=8/">Startups are built with both Undone and Unsung Engineering</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">May 13, 2010</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    3 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <div>
+  For me, web engineers are the magicians behind the curtain. That can mean not-a-lot of glory.
+</div>
+<div>
+  But for engineers like myself, undone engineering is more painful than unsung engineering.??One of the most difficult aspects of being a good engineer is knowing when to sacrifice good engineering. ??Startups, are by definition, challenging the established way of doing business, so the established way of doing great engineering sometimes isn&#8217;t good enough to survive. ??
+</div>
+<div>
+  <em>( Although this is a topic pretty well covered in writing about startups , I try translate the constraints of a startup into what a priority list for technical leadership might look like. )??</em>
+</div>
+<div>
+  Everything in a startup changes fast.??Engineering is managed chaos.??There are new team members, new customers, new data, new open source libraries, etc. Good engineering can accommodate change, but usually change is unexpected. As a side effect, the non-technical team begins to depend on the shortcuts, and the shortcuts begin to show their weaknesses. The design team has new ideas, and you can&#8217;t say yes as often as you used to.??
+</div>
+<div>
+  But you survive.??
+</div>
+<div>
+  Here are the priorities I use to keep everything moving for a web application startup (follows an 80 / 20 rule pretty well):
+</div>
+<div>
+  <ol class="MailOutline">
+    <li>
+      <strong>protect the data (files/database, etc)</strong> <ol>
+        <li>
+          back it up
+        </li>
+        <li>
+          make sure data is valid (ideally some smoke tests, unit tests, regression tests on the data layer of an application)
+        </li>
+        <li>
+          back it up
+        </li>
+        <li>
+          source control with easy to understand policies and branching
+        </li>
+        <li>
+          back it up
+        </li>
+        <li>
+          automate backing it up
+        </li>
+      </ol>
+    </li>
+<pre><code>&lt;li&gt;
+  &lt;strong&gt;fix problems with the user experiences&lt;/strong&gt; &lt;ol&gt;
+    &lt;li&gt;
+      small visual problems can make people &amp;#8230; disgusted. Fonts, cross browser issues take a lot of time, but matter to people who expect things to work.??
+    &lt;/li&gt;
+    &lt;li&gt;
+      client (browser) speed &amp;#8211; a small javascript issue can cause a page load to appear to take 5 seconds. &lt;em&gt;Perceived&lt;/em&gt; performance is all that matters.??
+    &lt;/li&gt;
+    &lt;li&gt;
+      fix display issues &amp;#8211; if they think data is lost, then it is??
+    &lt;/li&gt;
+    &lt;li&gt;
+      integrated QA team &amp;#8211; make everyone on the team test the site, but not their own work.
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+  &lt;strong&gt;make coding fast&lt;/strong&gt; &lt;ol&gt;
+    &lt;li&gt;
+      establish team communication that makes product iteration rapid
+    &lt;/li&gt;
+    &lt;li&gt;
+      use frameworks, existing but stable libraries (open source so you can fix critical problems yourself)
+    &lt;/li&gt;
+    &lt;li&gt;
+      keep version control and deployment as automated as possible for the whole team
+    &lt;/li&gt;
+    &lt;li&gt;
+      write easy to understand code
+    &lt;/li&gt;
+    &lt;li&gt;
+      document code and best practices (wiki style)
+    &lt;/li&gt;
+    &lt;li&gt;
+      track problems (bugs and backlogs)
+    &lt;/li&gt;
+    &lt;li&gt;
+      write test code (on critical areas)
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+  &lt;strong&gt;housekeeping&lt;/strong&gt; &lt;ol&gt;
+    &lt;li&gt;
+      refactor
+    &lt;/li&gt;
+    &lt;li&gt;
+      cleanup
+    &lt;/li&gt;
+    &lt;li&gt;
+      more test code
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+  &lt;strong&gt;new features/ scaling/performance&lt;/strong&gt;??- probably the most fun for an engineer, but last on the list. This has been the hardest for me. ??Engineers need to think about scaling when the system is architected&amp;#8230;. maybe. But when you have just a 10 customers and the entire database fits in memory&amp;#8230; why worry? &lt;ol&gt;
+    &lt;li&gt;
+      database ??- a typical bottleneck. NoSQL and distributed architectures are making this easier
+    &lt;/li&gt;
+    &lt;li&gt;
+      separate web server from application layer. Concentrate core application logic into languages that are better suited for scaling and concurrency issues
+    &lt;/li&gt;
+    &lt;li&gt;
+      load balance, messaging queues, etc
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/li&gt;
+</code></pre>
+  </ol>
+  <p />
+  <div>
+    Because of the list above, not every engineer out of a great tech school or amazing high tech corporation adjusts to startup life well. But when the above begins to pay dividends, engineers appreciate the big picture.
+  </div>
+  <p />
+</div>
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            Last updated on May 13, 2010 18:06 UTC
+        </span>
+    </section></footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.6dd0c80e987bd70fe126da8dd5c8370bcbe316a95172121841ef346733add318.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
